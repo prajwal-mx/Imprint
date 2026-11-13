@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-ivory: #FAF7F2;
+  --bg-blush: #F6EDE6;
+  --bg-pill-track: #F2ECE4;
+  --border-warm: #EAE0D5;
+  --border-button: #DFD3C5;
+  --ink-navy: #18202C;
+  --ink-muted: #68707C;
+  --accent-terracotta: #DE7A5E;
+  --accent-sun: #F0CE91;
+  --mint-bg: #EAF6F0;
+  --mint-ink: #287D56;
+}
+
+body {
+  background-color: var(--bg-ivory);
+  color: var(--ink-navy);
+  font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Subtle warm scrollbars for internal overflow areas */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #DFD3C5;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #DE7A5E;
+}

@@ -1,0 +1,9 @@
+**/node_modules
+**/__pycache__
+**/.pytest_cache
+**/.git
+**/*.db
+**/*.db-shm
+**/*.db-wal
+**/*.pyc
+veritasnap-frontend/dist
