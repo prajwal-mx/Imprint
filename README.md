@@ -5,6 +5,8 @@
 **Author:** [prajwal-mx](https://github.com/prajwal-mx)  
 **License:** Apache License 2.0
 
+**Live Demo:** https://imprint-production-cb55846b.up.railway.app
+
 ---
 
 ## 1. Overview & Problem Context
@@ -176,6 +178,8 @@ When `veritasnap-frontend/dist` exists, the FastAPI backend serves the built Rea
 ## 8. Railway Deployment
 
 The repository is configured for a single-service Railway deployment using the root `Dockerfile`.
+
+**Live deployment:** https://imprint-production-cb55846b.up.railway.app (Railway project `imprint`, region `sfo`). The service runs one always-on replica with a 1 GB volume mounted at `/data` for SQLite persistence.
 
 1. Create a Railway project and deploy from this GitHub repository.
 2. Railway reads `railway.json` and builds the Dockerfile. No build command or root directory override is required.
